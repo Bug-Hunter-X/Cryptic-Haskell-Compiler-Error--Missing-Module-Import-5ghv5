@@ -1,0 +1,3 @@
+# Cryptic Haskell Compiler Error: Missing Module Import
+
+This example demonstrates a common issue in Haskell where the compiler's error messages can be unclear when a necessary module is missing.  The code attempts to use the `sort` function from `Data.List`, but fails to import the module.  The resulting error message, while technically correct, doesn't directly point to the missing import. This makes debugging challenging for beginners.
